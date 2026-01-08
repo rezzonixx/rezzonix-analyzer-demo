@@ -29,7 +29,7 @@ class RezzonixApp extends StatelessWidget {
           centerTitle: true,
           elevation: 0,
         ),
-        cardTheme: CardTheme(
+        cardTheme: const CardThemeData(
           color: const Color(0xFF0A1226),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(18),
