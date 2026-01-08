@@ -29,12 +29,11 @@ class RezzonixApp extends StatelessWidget {
           centerTitle: true,
           elevation: 0,
         ),
+       
         cardTheme: const CardThemeData(
-          color: const Color(0xFF0A1226),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(18),
-          ),
-        ),
+  color: Color(0xFF0A1226),
+),
+        
         useMaterial3: true,
       ),
       home: const DashboardPage(),
